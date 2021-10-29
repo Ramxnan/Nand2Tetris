@@ -1,0 +1,14 @@
+CHIP BCD {
+IN a[4],b[4];
+OUT out[4],carry;
+
+PARTS:
+Add4(a=a,b=b,out[0]=s1,out[1]=s2,out[2]=s3,out[3]=s4,carry=carryout);
+And(a=s4,b=s3,out=x);
+And(a=s2,b=s1,out=y);
+Or(a=carryout,b=x,out=o);
+Or(a=y, b=false, out=p);
+Or(a=o,b=p,out=xyz);
+Add4(a[0]=s1,b[0]=false,a[1]=s2,b[1]=xyz,a[2]=s3,b[2]=xyz,a[3]=s4,b[3]=false,out=out,carry=carry);
+
+}
