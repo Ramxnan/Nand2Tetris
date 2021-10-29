@@ -1,0 +1,137 @@
+class countpellet
+{
+	function void count()
+	{
+		var int i;
+		var Array top,bottom,left,right,innertop,innerbottom;
+		let top=Array.new(100);
+		let bottom=Array.new(100);
+		let left=Array.new(100);
+		let right=Array.new(100);
+		let innertop=Array.new(100);
+		let innerbottom=Array.new(100);
+		let i=0;
+		while(i<14)
+		{
+			let top[i]=1;
+			let bottom[i]=1;
+			let i=i+1;
+		}
+		let i=0;
+		while(i<10)
+		{
+			let innertop[i]=1;
+			let innerbottom[i]=1;
+			let i=i+1;
+		}
+		let i=0;
+		while(i<7)
+		{
+			let left[i]=1;
+			let right[i]=1;
+			let i=i+1;
+		
+			if((x=23)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=43)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=63)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=83)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=103)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=123)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=143)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			
+			if((x=163)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=183)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=203)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=223)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+
+			if((x=243)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+			if((x=263)&(y=26)&(top[pelletno]=1))
+			{
+
+					let top[pelletno]=0;
+					let count=count+1;
+			}
+			let pelletno=pelletno+1;
+	}
+}

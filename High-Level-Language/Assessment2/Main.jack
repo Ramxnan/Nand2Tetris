@@ -1,0 +1,40 @@
+class Main
+{
+	function void main()
+	{
+		var int n,i,check,half;
+		let check = 0;
+		let i = 2;
+		let n = Keyboard.readInt("Enter the number to be checked   ");
+		let half = n/2;
+		if(n = 0)
+		{
+			
+			let check = 1;
+		}
+		if(n = 1)
+		{
+			
+			let check = 1;
+		}
+		while(i < (half+1)) 
+		{
+			if((n-(n/i*i))=0) 		//modulus function not in jack
+			{
+				let check = 1;
+			}
+			let i =i+1;
+			
+		}
+		if(check = 0)
+		{
+			do Output.printString("It is a prime number");
+		}
+		if(check = 1)
+		{
+			do Output.printString("It is NOT prime number");
+		}
+		return;
+	}
+	
+}

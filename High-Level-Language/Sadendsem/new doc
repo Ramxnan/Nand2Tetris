@@ -1,0 +1,24 @@
+class game
+{
+    function void connectfour()
+    {
+        var Array five,four,three,two,one,zero;
+        let five=Array.new(7);
+        let four=Array.new(7);
+        let three=Array.new(7);
+        let two=Array.new(7);
+        let one=Array.new(7);
+        let zero=Array.new(7);
+        var int player;
+        let player=1;
+        if(player=1)
+        {
+            do Output.moveCursor(3, 46);  //row, col
+            do Output.printString("player ");
+            do Output.moveCursor(3, 47);  //row, col
+            do Output.printint(player);
+            do Output.moveCursor(4, 46);
+            do Output.printString("enter column 0-6");
+        }
+    }
+}

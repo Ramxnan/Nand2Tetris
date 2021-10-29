@@ -1,0 +1,28 @@
+class Main
+{
+	function void main()
+	{
+		var Array a;
+		var int i,temp,j;
+		let a=Array.new(10);
+		let i=0;
+		while (i < 5) 
+		{
+       			let a[i] = Keyboard.readInt("Enter a number: ");
+		}
+		while (i<5)
+		{
+			let j=i+1;
+			while(j<5)
+			{
+				if (a[i] > a[j]) 
+                		{
+                		        temp = a[i];
+                    			a[i] = a[j];
+                    			a[j] = temp;
+				}
+			 }
+			let i=i+1;
+		}
+	}
+}
