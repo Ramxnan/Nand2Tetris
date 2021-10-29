@@ -1,0 +1,34 @@
+/*Student*/
+class Student
+{
+	field int aadhar_id;
+	field String name;
+	field String branch;
+	
+	constructor Student new(int id,String n,String b)
+	{
+		let aadhar_id=id;
+		let name=n;
+		let branch=b;
+		return this;
+	}
+	/*Accessors.*/
+	method int getEid(){return eid;}
+	method String getName(){return name;}
+	method String getBranch(){return branch;}
+	
+	method void dispose()
+	{
+		do Memory.deAlloc(this);
+		return;
+	}
+	method void print()
+	{
+		do Output.printInt(aadhar_id);
+		do Output.println();
+		do Output.printString(name);
+		do Output.println();
+		do Output.printString(branch);
+		return;
+	}
+}
