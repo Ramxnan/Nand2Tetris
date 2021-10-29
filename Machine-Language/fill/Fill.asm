@@ -1,0 +1,45 @@
+@p 
+  M=0 
+(LOOP)
+  @KBD 
+  D=M 
+  @W
+  D;JEQ 
+  @B
+  0;JMP 
+
+(W)
+  @p
+  D=M 
+  @LOOP
+  D;JLT 
+  @p
+  D=M
+  @SCREEN
+  A=A+D 
+  M=0 
+  @p
+  M=M-1 
+  @LOOP
+  0;JMP 
+
+(B)
+  @p
+  D=M
+  @8192 
+  D=D-A
+  @LOOP
+  D;JGE 
+  @p
+  D=M
+  @SCREEN
+  A=A+D 
+  M=-1 
+  @p
+  M=M+1 
+  @LOOP
+  0;JMP 
+
+(END)
+  @END
+  0;JMP 
